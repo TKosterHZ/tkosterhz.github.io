@@ -12,7 +12,7 @@
       margin: 0;
     }
 
-    ul {
+    .sidebar {
       list-style-type: none;
       margin: 0;
       padding: 0;
@@ -23,16 +23,27 @@
       overflow: auto;
     }
 
-    li a {
+    .sidebarlinks a {
       display: block;
       color: gray;
       padding: 8px 16px;
       text-decoration: none;
     }
 
-    li a:hover {
+    .sidebarlinks a:hover {
       background-color: #0019af;
       color: white;
+    }
+
+    .links {
+      display: block;
+      padding: 8px 16px;
+      text-decoration: none;
+      color: blue;
+    }
+
+    .links a:hover {
+      color: black;
     }
 
     hr {
@@ -46,12 +57,12 @@
 </head>
 
 <body>
-  <ul class="sidebar-ul">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="profile.html">About Me</a></li>
-    <li><a href="dashboard.html">Dashboard</a></li>
-    <li><a href="blogfeed.html">Blogs</a></li>
-    <li><a href="faq.html">FAQ</a></li>
+  <ul class="sidebar">
+    <li class="sidebarlinks"><a href="index.html">Home</a></li>
+    <li class="sidebarlinks"><a href="profile.html">About Me</a></li>
+    <li class="sidebarlinks"><a href="dashboard.html">Dashboard</a></li>
+    <li class="sidebarlinks"><a href="blogfeed.html">Blogs</a></li>
+    <li class="sidebarlinks"><a href="faq.html">FAQ</a></li>
   </ul>
 
   <div style="margin-left:10%;padding:1px;">
