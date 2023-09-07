@@ -1,17 +1,65 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TKPortofolio - DASHBOARD</title>
-  </head>
-  <body>
-    <main>
-      <article>
-        <h1>Personal Dashboard</h1>
-        <p><b>Leeftijd</b> <i>17 jaar</i></p>
-        <p><a href="index.html">Home</a></p>
-      </article>
-    </main>
-  </body>
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TKPortofolio - DASHBOARD</title>
+
+  <style>
+    body {
+      margin: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 10%;
+      background-color: #001932;
+      height: 100%;
+      position: fixed;
+      overflow: auto;
+    }
+
+    li a {
+      display: block;
+      color: gray;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #0019af;
+      color: white;
+    }
+
+    hr {
+      height: 2px;
+      background-color: white;
+      border-color: white;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <ul class="sidebar-ul">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="profile.html">About Me</a></li>
+    <li><a href="dashboard.html">Dashboard</a></li>
+    <li><a href="blogfeed.html">Blogs</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+  </ul>
+
+  <div style="margin-left:10%;padding:1px;">
+    <h1 style="margin-left:1%;">Dashboard</h1>
+    <fieldset>
+      <legend style="margin-bottom:-20px;"><h2>Grades</h2></legend>
+    </fieldset>
+  </div>
+</body>
+
 </html>
