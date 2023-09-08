@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.sidebar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #001932;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+.sidebarlinks a {
+    display: block;
+    color: gray;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.sidebarlinks a:hover {
+    background-color: #0019af;
+    color: white;
+}
+
+.links {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: blue;
+}
+
+.links a:hover {
+    color: black;
+}
+
+hr {
+    height: 2px;
+    background-color: white;
+    border-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
