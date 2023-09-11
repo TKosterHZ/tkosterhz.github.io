@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>TKPortofolio - DASHBOARD</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dashboard.css">
 </head>
 
 <body>
@@ -20,7 +21,126 @@
   <div style="margin-left:10%;padding:1px;">
     <h1 style="margin-left:1%;">Dashboard</h1>
     <fieldset>
-      <legend style="margin-bottom:-20px;"><h2>Grades</h2></legend>
+      <legend style="margin-bottom:-20px;"><h2>Progress Year 1</h2></legend>
+      <table>
+        <tr class="tableheaders">
+          <th>Quartile</th>
+          <th>Course</th>
+          <th>EC</th>
+          <th>Exam</th>
+          <th>Grade</th>
+        </tr>
+        <tr>
+          <td rowspan="3">1</td>
+          <td>PCO: Program- & career Orientation</td>
+          <td>2.5</td>
+          <td>Assessment website</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>CBA: Computer Science Basics</td>
+          <td>5</td>
+          <td>Written exam</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>PBA: Programming Basics</td>
+          <td>5</td>
+          <td>Case study exam</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1/2</td>
+          <td>IT Personality- projectweek</td>
+          <td>1.25</td>
+          <td>Portfolio</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td rowspan="2">2</td>
+          <td rowspan="2">OOP: Object Oriented Programming</td>
+          <td rowspan="2">10</td>
+          <td>Group assignment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Case study exam</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2-3</td>
+          <td>IT Personality 1</td>
+          <td>1.25</td>
+          <td>Portfolio</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td rowspan="4">3</td>
+          <td rowspan="4">FPR1: Framework Project 1</td>
+          <td rowspan="4">10</td>
+          <td>On-site case study exam</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Database exam</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Group presentation on project result</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Group portfolio with individual elements on requirements</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3/4</td>
+          <td>IT Personality International week</td>
+          <td>1.25</td>
+          <td>Portfolio</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3-4</td>
+          <td>IT Personality 2</td>
+          <td>1.25</td>
+          <td>Portfolio</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3-4</td>
+          <td>Business IT Consultancy Basics</td>
+          <td>2.5</td>
+          <td>Video</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td rowspan="3">4</td>
+          <td rowspan="3">FPR1: Framework Project 2</td>
+          <td rowspan="3">10</td>
+          <td>Final delivery</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Report of acceptance tests and optional assessments</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>IT Development portfolio</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1-4</td>
+          <td>PPD-E: Personal Professional Development: Exploration</td>
+          <td>12.5</td>
+          <td>Criterium focused interview</td>
+          <td></td>
+        </tr>
+      </table>
+
+      <br>
+      <label class="ec-label" for="file">EC Points</label>
+      <progress class="ec-progress" id="file" value="10" max="60"></progress>
     </fieldset>
   </div>
 </body>
