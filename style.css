@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #969696;
 }
 
 .sidebar {
@@ -15,9 +16,10 @@ body {
 
 .sidebarlinks a {
     display: block;
-    color: gray;
+    color: #969696;
     padding: 8px 16px;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .sidebarlinks a:hover {
@@ -42,4 +44,14 @@ hr {
     border-color: white;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.article {
+    border-radius: 10px;
+    border-color: #001932;
+    width: 80%;
+}
+
+.articletitle {
+    color: white;
 }
