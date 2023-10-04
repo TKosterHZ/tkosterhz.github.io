@@ -41,6 +41,10 @@ a.active {
     color: #001932;
 }
 
+ul {
+    list-style-type: none;
+}
+
 hr {
     height: 2px;
     background-color: white;
