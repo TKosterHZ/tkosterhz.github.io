@@ -20,3 +20,11 @@ table {
     background-color: #c8c8c8;
     border: 2px, black;
 }
+
+.tr1 tr {
+    background-color: white;
+}
+
+.tr2 tr {
+    background-color: #c8c8c8;
+}
