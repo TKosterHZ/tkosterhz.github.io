@@ -62,3 +62,8 @@ hr {
 .articletitle {
     color: white;
 }
+
+.update, .post {
+    text-align: right;
+    font-style: italic;
+}
